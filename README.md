@@ -17,6 +17,11 @@
 
 ## Papers and Summaries
 
+### [SLM Meets LLM: Balancing Latency, Interpretability and Consistency in Hallucination Detection](https://arxiv.org/pdf/2408.12748)
+- **Metrics:**  Precision, Recall, F1 for inconsistency identification and reasoning feedback.
+- **Datasets:** FEVER, NHNET, HaluQA, HaluSum
+- **Comments:**  This paper proposes a novel framework that leverages a small language model (SLM) classifier for initial detection, followed by a LLM as constrained reasoner to generate detailed explanations for detected hallucinated content. This study optimizes the real-time interpretable hallucination detection by introducing effective prompting techniques that align LLM-generated explanations with SLM decisions.
+
 ### [HallusionBench: An Advanced Diagnostic Suite for Entangled Language Hallucination and Visual Illusion in Large Vision-Language Models](https://arxiv.org/pdf/2310.14566.pdf)
 - **Metrics:**  Accuracy.
 - **Datasets:** HallusionBench
